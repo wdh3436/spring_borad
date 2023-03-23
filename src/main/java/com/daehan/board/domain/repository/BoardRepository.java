@@ -7,6 +7,7 @@ import com.daehan.board.domain.entity.BoardEntity;
 
 public interface BoardRepository extends JpaRepository<BoardEntity, Long> {
 	
-	/* 검색 호출 메서드 */
+	/* 검색 호출 메서드*/
 	List<BoardEntity> findByTitleContaining(String keyword);
+	
 }
