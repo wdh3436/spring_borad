@@ -6,9 +6,5 @@ import com.daehan.board.domain.entity.AccountEntity;
 
 @Repository
 public interface AccountRepository extends JpaRepository<AccountEntity,Long> {
-	
-	/*
 	AccountEntity findByUsername(String username);
-	*/
-
 }

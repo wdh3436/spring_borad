@@ -10,10 +10,8 @@ import com.daehan.board.dto.BoardDto;
 import com.daehan.board.service.BoardService;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 
 @Controller
-@Slf4j
 @AllArgsConstructor
 public class BoardController {
 	private BoardService boardService;
