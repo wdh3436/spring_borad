@@ -26,17 +26,17 @@ public class UserController {
 	
 	@GetMapping("/user")
     public String dispUser(Model model){
-        log.info("home controller");
+        log.info("user controller");
         return "/user/user";
     }
     @GetMapping("/manager")
     public String dispManager(Model model){
-        log.info("home controller");
+        log.info("maager controller");
         return "/user/manager";
     }
     @GetMapping("/admin")
     public String dispAdmin(Model model){
-        log.info("home controller");
+        log.info("admin controller");
         return "/user/admin";
     }
     
